@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Océano en Movimiento</title>
+  <link rel="stylesheet" href="../css/oceanostyle.css" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="nav-icon">
+        <img src="../imagenes/ola%20(3).png" alt="Logo" />
+      </div>
+      <ul>
+        <li><a href="../html/index.html">Inicio</a></li>
+        <li><a href="../html/OceanoMovimiento.html">Océano en movimiento</a></li>
+        <li><a href="../html/AnimalesMarinos.html">Animales marinos</a></li>
+        <li><a href="../html/Cuidar.html">Cuidemos el océano</a></li>
+        <li><a href="../html/Adultos.html">Para adultos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+  <section class="hero-nueva">
+  <div class="contenido-hero">
+    <h1 class="titulo-animado">Para Adultos</h1>
+
+    <p>Acompañar para Entender</p>
+  </div>
+</section>
+        <section class="texto-adultos">
+  <p>
+    Sabemos que el aprendizaje no ocurre solo en la escuela. Como madres, padres o personas adultas cercanas a adolescentes, también jugamos un papel clave en cómo descubren y se relacionan con el mundo. Esta sección fue pensada para ustedes: una guía simple, clara y cercana que les permita conocer el propósito de este sitio, comprender qué están explorando sus hijas e hijos, y encontrar formas de acompañarlos con curiosidad, sin necesidad de ser expertos.<br><br>
+    Aquí no se trata de tener todas las respuestas, sino de compartir el viaje.
+  </p>
+  <br>
+</section>
+
+
+       
+       <section class="seccion-azul">
+  <div class="contenedor-azul">
+    <div class="lado-izquierdo">
+      <h2>¿Qué es<br>este sitio?</h2>
+    </div>
+    <div class="lado-derecho">
+      <p>
+        Este sitio es un espacio interactivo que busca despertar la curiosidad de adolescentes entre 12 y 15 años sobre el mundo marino. <br> Está pensado como una experiencia digital entretenida y educativa, con videos, datos curiosos y contenido visual diseñado especialmente para su edad.
+      </p>
+    </div>
+  </div>
+</section>
+
+        
+        <section class="seccion-azul-claro">
+  <div class="contenedor-azul invertido">
+    <div class="lado-derecho">
+      <p>
+      Somos un equipo de jóvenes creadores, estudiantes como sus hijas e hijos, que desarrollamos esta plataforma como parte de un proyecto escolar.
+Queremos compartir lo que aprendimos de forma entretenida, amigable y comprensible para otras personas de nuestra edad.
+Todo el contenido ha sido supervisado para asegurar que sea seguro, informativo y atractivo.
+      </p>
+    </div>
+    <div class="lado-izquierdo">
+      <h2>¿Quiénes somos?</h2>
+    </div>
+  </div>
+</section>
+
+       
+       <section class="titulo-acompanamiento">
+  <h2>Consejos para el <br> acompañamiento digital</h2>
+  <br> <br> <br> <br><br>
+</section>
+
+        
+        <section class="seccion-circulos">
+  <div class="contenedor-circulos">
+    
+    <div class="item-circulo animado">
+      <div class="circulo-img">
+        <img src="../imagenes/image_con1.png" alt="Consejo 1" />
+      </div>
+      <h3>Haz preguntas<br> abiertas</h3>
+      <p>En lugar de "¿entendiste?", intenta con "¿qué fue lo que más te llamó la atención hoy?" o "¿algo te sorprendió?". Esto abre la puerta al diálogo y a que te cuente más allá de lo básico.</p>
+
+    </div>
+    
+    <div class="item-circulo animado">
+      <div class="circulo-img">
+        <img src="../imagenes/image_con2.png" alt="Consejo 2" />
+      </div>
+      <h3>Participa como compañero, no como experto</h3>
+      <p>No necesitas saberlo todo. Puedes decir “eso no lo sabía” o “¿me lo explicas tú?”. Compartir la curiosidad genera confianza y rompe la idea de que aprender es cosa de uno solo.</p>
+    </div>
+    
+    <div class="item-circulo animado">
+      <div class="circulo-img">
+        <img src="../imagenes/image_con3.png" alt="Consejo 3" />
+      </div>
+      <h3>Naveguen juntos de vez en cuando</h3>
+      <p>Tómate unos minutos para explorar el sitio con él o ella. La plataforma está diseñada para que sea clara tanto para adolescentes como para adultos, y puede ser una oportunidad de conexión sencilla.</p>
+    </div>
+
+  </div>
+</section>
+  </main>
+
+  <footer>
+   
+    <div class="foot-container">
+      <!-- Columna 1: Logo -->
+      <div class="foot-icon">
+        <img src="../imagenes/Oceano.png" alt="Logo2" />
+      </div>
+
+      <!-- Columna 2: Primera parte del menú -->
+      <div class="foot-nav">
+        <h5>Explora más</h5>
+        <ul>
+          <li><a href="../html/index.html">Inicio</a></li>
+          <li><a href="../html/OceanoMovimiento.html">Océano en movimiento</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Segunda parte del menú -->
+      <div class="foot-nav">
+        <ul>
+         <li><a href="../html/AnimalesMarinos.html">Animales marinos</a></li>
+          <li><a href="../html/Cuidar.html">Cuidemos el océano</a></li>
+          <li><a href="../html/Adultos.html">Para adultos</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <p >&copy; 2025 Océano en Movimiento. Todos los derechos reservados.</p>
+    <p>Hecho por Arantxa Herrera Preza y Diana Jesica Hernández Galicia</p>
+  </footer>
+   <script>
+  const animados = document.querySelectorAll('.animado');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  animados.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
